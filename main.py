@@ -1,3 +1,4 @@
+import art
 import os
 import time
 
@@ -9,6 +10,7 @@ def clear():
 
 def main():
     print('Welcome to the secret auction program.')
+    print(art.logo)
     bids = {}
     again = ''
 
